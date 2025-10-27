@@ -41,14 +41,66 @@
 
 <h4>Principais etapas e visualizações:</h4>
 
- <h5>📊 Vendas Globais por Ano</h5>
- <img src="tabela_amostra.png" alt="Tabela de Amostra" width="600"/>
+ <h5>📊 Vendas Globais por Ano:</h5>
+ <img src="vendas_globais.png" alt="Vendas Globais" width="600"/>
  <ul>
-  <li>Distribuição Geral das Médias: Estatísticas descritivas da coluna average score com describe().</li>
-  <li>Comparação entre Grupos: Boxplots para as colunas "lunch" e "test preparation course" (mostrando dispersão, mediana e outliers) e Barplots para "parental level of education" e "race/ethnicity" (comparando médias por grupo).</li>
-  <li>Estatísticas por Grupo: cálculo de médias com groupby().mean().</li>
-  <li>Ranking dos 5 melhores e 5 piores alunos, a fim de comparação.</li>
+  <li>As vendas globais atingiram o pico nos primeiros anos do PS4, com destaque para o período 2013–2016.</li>
+  <li>A partir de 2017, observa-se queda contínua, possivelmente pela transição para a nova geração de consoles (PS5).</li>
 </ul>
+
+ <h5>🕹️ Vendas por Gênero:</h5>
+ <img src="genero.png" alt="Vendas por Gênero"/>
+ <ul>
+  <li>Os gêneros Action e Shooter lideram as vendas globais.</li>
+  <li>Gêneros de nicho, como Puzzle e Strategy, apresentaram menor desempenho.</li>
+</ul>
+
+ <h5>🏆 Top 10 Publishers:</h5>
+ <img src="empresas.png" alt="Vendas por empresa"/>
+ <ul>
+  <li>Activision, Ubisoft e Electronic Arts dominam as vendas globais.</li>
+  <li>O mercado mostra alta concentração, com poucas empresas detendo a maior parte das receitas.</li>
+</ul>
+
+ <h5>🌍 Distribuição Regional das Vendas:</h5>
+ <img src="porcentagem.png" alt="Porcentagem por empresa"/>
+ <ul>
+  <li>Europa e América do Norte concentram cerca de 80% das vendas globais.</li>
+  <li>Japão representa a menor parcela, enquanto o “Resto do Mundo” mantém desempenho estável ao longo dos anos.</li>
+</ul>
+
+<h3>3. Resultados e Insights</h3>
+
+ <ul>
+  <li>Período de pico: Entre 2014 e 2016, auge das vendas.</li>
+  <li>Gêneros dominantes: Action e Shooter lideram.</li>
+  <li>Publishers: Mercado concentrado em poucas empresas.</li>
+  <li>Regiões dominantes: América do Norte e Europa juntas é igual a quase 80% das vendas globais.</li>
+</ul>
+
+<h3>4. Tecnologias Utilizadas</h3>
+
+<ul>
+  <li>Python</li>
+  <li>Pandas e NumPy</li>
+  <li>Matplotlib e Seaborn</li>
+  <li>Google Colab / VSCode</li>
+</ul>
+<br><br>
+
+<h2>📝Conclusão:</h2>
+<p>A análise das vendas de jogos de PS4 revelou insights importantes sobre o comportamento do mercado de games durante o ciclo de vida do console. Observou-se que o período entre 2014 e 2017 representou o auge das vendas globais, seguido por uma queda gradual nos anos seguintes, reflexo natural da transição para a nova geração de consoles.
+
+Os gêneros Action e Shooter se destacaram como os mais populares, evidenciando a preferência dos jogadores por experiências dinâmicas e competitivas. Em contrapartida, gêneros mais nichados, como Puzzle e Strategy, apresentaram vendas mais modestas.
+
+A análise das publishers mostrou uma forte concentração de mercado, com poucas empresas — como Activision, Ubisoft e Electronic Arts — dominando a maior parte das vendas globais. Esse cenário reflete a influência dessas grandes marcas na indústria de games.
+
+Por fim, a distribuição regional indicou que América do Norte e Europa são os principais mercados consumidores, somando juntas quase 80% das vendas globais, enquanto o Japão e o Resto do Mundo possuem participações menores, mas consistentes.
+
+Em resumo, o estudo demonstra como uma análise exploratória de dados pode revelar tendências de mercado, preferências de consumo e padrões regionais relevantes para a indústria dos videogames.</p>
+
+
+
 
 
 
